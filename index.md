@@ -52,6 +52,7 @@ $ ls
 ```
 
 You will see
+
 ```bash
     sra_metadata  untrimmed_fastq
 ```
@@ -65,7 +66,7 @@ $ ls -F
 sra_metadata/  untrimmed_fastq/
 ```
 
-Anything with a "/" after it is a directory. Things with a "*" after them are programs.  If there are no decorations, it's a file.
+Anything with a `/` after it is a directory. Things with a `*` after them are programs.  If there are no decorations, it's a file.
 
 You can also use the command
 
@@ -107,7 +108,7 @@ Programs that are run from the shell can get extremely complicated. To see an ex
 
 ## The Unix directory file structure (a.k.a. where am I?)
 
-As you've already just seen, you can move around in different directories or folders at the command line. Why would you want to do this, rather than just navigating around the normal way.
+As you've already seen, you can move around in different directories or folders at the command line. Why would you want to do this, rather than just navigating around the normal way?
 
 When you're working with bioinformatics programs, you're working with your data and it's key to be able to have that data in the right place and make sure the program has access to the data. Many of the problems people run in to with command line bioinformatics programs is not having the data in the place the program expects it to be.
 
@@ -170,13 +171,13 @@ $ cd ..
 Now do `ls` and `pwd`. See now that we went back up in to the 'dc_sample_data'
 directory. `..` means go back up a level.
 
-* * * *
-**Exercise**
-
-Now we're going to try a hunt.  Find a hidden directory in dc_sample_data list its contents and file the text file in there.  What is the name of the file?
-
-Hint: hidden files and folders in unix start with '.', for example .my_hidden_directory
-* * * *
+> * * * *
+> **Exercise**
+> 
+> Now we're going to try a hunt.  Find a hidden directory in dc_sample_data list its contents and file the text file in there.  What is the name of the file?
+> 
+> Hint: hidden files and folders in unix start with '.', for example .my_hidden_directory
+> * * * *
 
 
 ## Examining the contents of other directories
