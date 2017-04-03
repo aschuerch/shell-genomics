@@ -171,13 +171,13 @@ $ cd ..
 Now do `ls` and `pwd`. See now that we went back up in to the 'dc_sample_data'
 directory. `..` means go back up a level.
 
-> * * * *
-> **Exercise**
-> 
-> Now we're going to try a hunt.  Find a hidden directory in dc_sample_data list its contents and file the text file in there.  What is the name of the file?
-> 
-> Hint: hidden files and folders in unix start with '.', for example .my_hidden_directory
-> * * * *
+* * * *
+**Exercise**
+
+Now we're going to try a hunt.  Find a hidden directory in dc_sample_data list its contents and file the text file in there.  What is the name of the file?
+
+Hint: hidden files and folders in unix start with '.', for example .my_hidden_directory
+* * * *
 
 
 ## Examining the contents of other directories
@@ -306,6 +306,7 @@ prints the contents of `/home/dcuser` which is your home directory. Finally, the
 
 To summarize, while you are in the `shell` directory, the commands `ls ~`, `ls ~/.`, `ls ../../`, and `ls /home/dcuser` all do exactly the same thing. These shortcuts are not necessary, they are provided for your convenience.
 
+
 ### Our data set: FASTQ files
 
 We did an experiment and want to look at sequencing results. We want to be able to look at these files and do some things with them.
@@ -350,11 +351,11 @@ The '*' is expanded to include any file that ends with '.fastq'
 
 ### Resources:
 
-Shell cheat sheets:<br>
-* [http://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/](http://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)
-* [https://github.com/swcarpentry/boot-camps/blob/master/shell/shell_cheatsheet.md](https://github.com/swcarpentry/boot-camps/blob/master/shell/shell_cheatsheet.md)
+Shell cheat sheets and links:<br>
 
+* [Unix Command Line Cheat Sheet](http://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)
+* [The Unix Shell: Summary of Basic Commands](http://swcarpentry.github.io/shell-novice/reference/)
 * Explain shell - a web site where you can see what the different components of a shell command are doing.[http://explainshell.com](http://explainshell.com)
-* Learn more about cloud computing in bioinformatics [http://www.commandlinefu.com](http://www.commandlinefu.com)
+
 
 
